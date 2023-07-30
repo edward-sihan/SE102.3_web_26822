@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Tutorial 06</title>
+        <script language="javascript" type="text/javascript" src="tute6.js"></script>
+        <script language="javascript" type="text/javascript">
+            function sayhello()
+            {
+                window.alert("Hello and welcome");
+                document.write("Hello and welcome");
+            }
+            function hello(name)
+            {
+                window.alert("Hello welcome "+name);
+            }
+            function displaymessage()
+	        {    
+	 	        alert("Hello World!");
+	        }
+
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="button" value="Click me!" onclick="displaymessage()">
+        </form>
+            
+       <script language="javascript" type="text/javascript">
+         var test1=6;
+         var test2=2;
+        test3=test1+test2;
+        document.write("Addition is "+test3,"<br>");
+
+        var name="welcome";
+        document.write(name.bold(),"<br>");
+        document.write(name.toUpperCase(),"<br>");
+        document.write(name.substring(0,5),"<br>");
+        sayhello();
+        document.write("<br>");
+        var nam=window.prompt("Enter your name");
+        hello(nam);
+
+       </script>
+    </body>
+</html>

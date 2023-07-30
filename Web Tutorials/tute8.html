@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Tutorial 08</title>
+        <script language="javascript" type="text/javascript">
+            function x()
+            {
+                document.bgColor="red";
+            }
+            function y()
+            {
+                document.bgColor="green";
+            }
+            function z()
+            {
+                document.bgColor="blue";
+            }
+            function a()
+            {
+                document.bgColor="white";
+            }
+        </script>
+    </head>
+    <body>
+        <form name="button" method="post" action="#">
+            <input type="button" name="but" value="red" onmouseover="x()" onmouseout="a()">
+            <input type="button" name="but" value="blue" onmouseover="z()" onmouseout="a()">
+            <input type="button" name="but" value="Green" onmouseover="y()" onmouseout="a()">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+
+<html>
+<head>
+<title>Name</title><script language=javascript type="text/javascript">
+function Validatetext()
+{
+	if(document.myForm.firstName.value.length <=1)
+	{
+		window.alert("Missing name !!! Plaese correct");
+		return;
+	}
+	if(document.myForm.address.value.length <=1)
+	{
+		window.alert("Missing address !!! Plaese correct");
+		return;
+	}
+}
+</script></head>
+<body><form method=post  name="myForm" >
+<b> Name:</b>
+<input name="firstName" type="text" size="15" maxlength="20" value=""><br>
+<b> Address:</b>
+<input name="address" type="text" size="15" maxlength="20" value=""><br>
+<input type="button" value="Validate" onclick="Validatetext()">
+</form>
+</body>
+</html>

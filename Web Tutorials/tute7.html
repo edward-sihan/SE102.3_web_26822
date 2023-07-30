@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Tutorial 07</title>
+        <script language="javascript" type="text/javascript">
+            function display()
+            {
+                window.alert("This is a alert");
+            }
+            function calculator(avg)
+            {
+               if(avg>0)
+               window.alert("Congrats You passed");
+               else
+               window.alert("better luck next time");
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="button" name="input" value="click me" onclick="display()">
+        </form>
+        <script language="javascript" type="text/javascript">
+            var a;
+            var tot=0
+            for(a=1;a<=5;a++)
+            {
+                var marks=prompt("Enter value ",a);
+                var number=parseFloat(marks);
+                document.write("The number ",a ," is:"+number,"<br>");
+                tot=tot+number;
+            }
+            document.write("The total is: "+tot,"<br>");
+            var average=tot/5;
+            document.write("The average is:"+average,"<br>");
+            calculator(average);
+        </script>
+        <input type="button" name="addition" value="grade" onclick="calculator()">
+    </body>
+</html>

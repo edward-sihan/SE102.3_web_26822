@@ -1,0 +1,46 @@
+<htmL>
+    <head>
+        <title>tutorial 04</title>
+        <style>
+            div{
+                border: 1px solid black;
+                width: fit-content;
+                padding: 3%;
+            }
+            input{
+
+                margin: 5px;
+            }
+            label{
+                float: left;
+                margin-right: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Registration form </h1>
+            <form name="Registration" method="post" action="#" style="display: contents;" >
+                <label style="margin-right: 25%;">Name:</label> <input type="text" name="f_name"><br>
+                <label style="margin-right: 17%;">Last Name:</label> <input type="text" name="l_name"><br>
+                <label style="margin-right: 9%;"> Mobile Number:</label> <input type="text" name="m_num"><br>
+                <label style="margin-right: 22%;">Gender:</label> <input type="radio" name="gender" value="M">Male
+                <input type="radio" name="gender" value="F">Female<br>
+                <label style="margin-right:25% ;">Emial:</label> <input type="email" name="email"><br>
+                <label>Favourite Music:</label>
+                <input type="checkbox" name="music">
+                Pop
+                <input type="checkbox" name="music">
+                Rock
+                <input type="checkbox" name="music">
+                Other<br>
+                <label>additional details:</label> <textarea name="Details" rows="5" cols="30"></textarea><br>
+                <input type="checkbox" name="agree">
+                <p>I agree to the terms and the conditions</p><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="reset">
+            </form>
+            <br><br><br>
+        </div>
+    </body>
+</htmL>

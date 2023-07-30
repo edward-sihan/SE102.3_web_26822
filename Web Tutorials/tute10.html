@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Tutorial 10</title>
+    </head>
+    <body>
+        <script language="javascript" type="text/javascript">
+            var num1=window.prompt("Enter number 01:");
+            a=parseFloat(num1);
+            var num2=window.prompt("Enter number 02");
+            b=parseFloat(num2);
+            var cal=window.prompt("enter the operation:+ - / *");
+            document.write("Number 1 and 2 is:"+a," "+b,"<br>");
+            document.write("The operation selected is: "+cal,"<br>")
+            switch(cal)
+            {
+                case '+': document.write("The addition is: ",a+b);break;
+                case '-': document.write("The subtraction is: ",a-b);break;
+                case '*': document.write("The product is: ",a*b);break;
+                case '/': document.write("The division is: ",a/b); break;
+                default: document.write("Invalid operation");
+            }
+        </script>
+    </body>
+</html>

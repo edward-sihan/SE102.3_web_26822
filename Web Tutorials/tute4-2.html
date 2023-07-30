@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>tutorial 4-2</title>
+        <style>
+            div{
+                border: 1px solid black;
+                width: fit-content;
+                padding: 2%;
+            }
+            input{
+                margin: 5px;
+            }
+            label{
+                float: left;
+                margin-right: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>Car Registration</p>
+            <form name="car" method="post" action="#"></form>
+            <lable>Owner name:</lable><input type="text" name="car_reg" placeholder="name"><br>
+            <label>Email:</label><input type="email" name="email" placeholder="Email"><br>
+            <label>Phone:</label><input type="text" name="phnum" placeholder="Phone number"><br>
+            <label>Country:</label><input type="text" name="Country" placeholder="Sri Lanka"><br>
+            <label>Car model:</label><input type="text" name="model"><br>
+            <label>manufacturee:</label><input type="text" name="man"><br>
+            <label>Transmission:</label><input type="radio" name="trans" value="Mannual">Mannual
+            <input type="radio" name="trans" value="auto">auto<br>
+            <label>Other:</label><textarea name="Other" rows="5" cols="40"></textarea><br>
+            <input type="checkbox" name="agree">
+            I agree to the conditions and terms<br>
+            <input type="submit" value="submit">&nbsp;
+            <input type="reset" value="reset">
+        </div>
+    </body>
+</html>

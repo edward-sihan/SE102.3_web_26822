@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Tutorial 9-2</title>
+        <script language="javascript" type="text/javascript">
+            function y()
+            {
+                var conf=window.confirm("Do you want to visit?");
+                if(conf)
+                {
+                    window.location.href = "https://www.google.com/"
+                }
+                else 
+                {
+                    window.alert("You decided to stay");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name="button" method="post" action="#">
+            <input type="button" name="but" value="google" onclick="y()">
+        </form>
+    </body>
+</html>

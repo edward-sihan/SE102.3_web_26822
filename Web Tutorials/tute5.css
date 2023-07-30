@@ -1,0 +1,47 @@
+body{
+    background-image: url();
+}
+
+div{
+    border: 1px solid black;
+    padding: 3%;
+    margin: 10%;
+    width: max-content;
+    height:55%;
+    align-items: center;
+    background-color: rgb(9, 9, 46);
+}
+
+h1{
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(231, 153, 9);
+    margin: 1%;
+}
+input{
+    margin: 10px;
+}
+
+label{
+    float: left;
+    margin-right: 15px;
+    color:yellow;
+    width: 100px;
+}
+P{
+    color: yellow;
+}
+select{
+    margin: 10px;
+}
+input[type="submit"]{
+    background-color: green;
+    width: 30%;
+    height: 5%;
+}
+input[type="reset"]{
+    background-color: red;
+    width: 30%;
+    height: 5%;
+}
